@@ -3,7 +3,7 @@ version: "2"
 services:
 
   dbserver:
-    image: mysql:latest
+    image: mysql:5.5
     volumes:
       - ./mysqldb:/var/lib/mysql
     ports:
