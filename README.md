@@ -4,7 +4,7 @@ This is a base or tempplate for **WordPress development** with **Docker environm
 
 The main advantage of this configuration is that **you can sync the folder with some sync app/service** (like Dropbox, Google Drive, OneDrive...) and you can continue developing in other computer **without loosing database data**, files or configurations.
 
-This configuration uses [**MySQL** *(5.5)*](https://hub.docker.com/_/mysql/) docker image as database server. It also uses [**WordPress** *(latest)*](https://hub.docker.com/_/wordpress/) image to build a new one with PHPZip library needed for some plugins.
+This configuration uses [**MySQL** *(5.5)*](https://hub.docker.com/_/mysql/) docker image as database server. It also uses [**WordPress** *(php7.1)*](https://hub.docker.com/_/wordpress/) image as base to build a new one with PHPZip library needed for some plugins. This choices are because I use to develop with this server configuration.
 
 This uses local folder volumes to store DB (``./mysqldb``) and WordPress (``./wordpress``) files.
 
